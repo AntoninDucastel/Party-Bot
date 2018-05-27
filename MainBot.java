@@ -19,7 +19,7 @@ public class MainBot implements Runnable{
 	private boolean running;
 	
 	public MainBot() throws LoginException {
-		jda = new JDABuilder(AccountType.BOT).setToken("NDI2ODQwMjMzMDU3OTc2MzIw.DZfYgA.0eWE27cZyupeGmX_oXu3JkXJQBc").buildAsync();
+		jda = new JDABuilder(AccountType.BOT).setToken("      ").buildAsync();
 		jda.addEventListener(new BotListener(commandMap));
 		System.out.println("Hey, je suis Party Bot !");
 		System.out.println("Bot Party est dans la place !");
